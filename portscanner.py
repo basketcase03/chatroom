@@ -3,7 +3,7 @@ import threading
 from queue import Queue
 
 target = "127.0.0.1"
-queuev = Queue()
+queue = Queue()
 open_ports = []
 
 def portscan(port):
